@@ -28,6 +28,8 @@ A **TypeScript** project to calculate the difference between two dates in variou
 - **TypeScript**: Strongly typed programming language for building robust applications.
 - **HTML/CSS**: For the user interface.
 - **Jest**: For unit testing.
+- **ESLint**: For code linting and maintaining code quality.
+- **Prettier**: For code formatting.
 
 ---
 
@@ -51,9 +53,24 @@ To run the project locally, follow these steps:
    npm start
    ```
 
-4. **Run tests**:
+4. **Run in development mode**:
+   ```bash
+   npm run dev
+   ```
+
+5. **Run tests**:
    ```bash
    npm test
+   ```
+
+6. **Lint the code**:
+   ```bash
+   npm run lint
+   ```
+
+7. **Format the code**:
+   ```bash
+   npm run format
    ```
 
 ---
