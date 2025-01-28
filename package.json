@@ -1,7 +1,7 @@
 {
   "name": "time-between-dates",
   "version": "1.0.0",
-  "description": "<p align=\"center\">\r   <img src=\"https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white\">\r   <img src=\"https://img.shields.io/badge/Development-In%20Progress-yellow?style=for-the-badge\">\r </p>",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -27,6 +27,7 @@
     "prettier": "^3.4.2",
     "ts-jest": "^29.2.5",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.22.0"
+    "typescript-eslint": "^8.22.0",
+    "ts-node": "^10.9.1"
   }
 }

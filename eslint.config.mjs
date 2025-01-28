@@ -15,6 +15,7 @@ export default [
       sourceType: 'module',
       globals: {
         ...globals.node,
+        ...globals.jest,
       },
     },
     plugins: {
@@ -23,13 +24,13 @@ export default [
     },
     rules: {
       ...tsPlugin.configs.recommended.rules,
-      'import/extensions': [
-        'error',
-        'ignorePackages',
-        {
-          ts: 'never',
-        },
-      ],
+      // 'import/extensions': [
+      //   'error',
+      //   'ignorePackages',
+      //   {
+      //     ts: 'never',
+      //   },
+      // ],
     },
   },
 

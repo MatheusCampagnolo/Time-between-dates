@@ -7,8 +7,15 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+
+    // If it's needed to especify .ts extensions in imports
+    
+    // "allowImportingTsExtensions": true,
+    // "noEmit": true,
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "../jest.config.ts"],
   "exclude": ["node_modules"]
 }
